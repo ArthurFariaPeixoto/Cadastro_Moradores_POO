@@ -50,9 +50,14 @@ public class CadastroMoradoresVetor {
                 proximoMorador = scan.next();
                 if(Objects.equals(proximoMorador, "N") || Objects.equals(proximoMorador, "n")){
                     for(int j = i; j <  quantidadeMoradores; j++){
-                        System.out.println("\n\nDados do morador: " +j+
-                                "\nNome: " +  moradores[i].getNome()+"\nCPF: "+moradores[i].getCpf()+"\nTelefone: "+moradores[i].getCelular()+"\nData de nascimento: "+
-                                moradores[i].getDataDenascimento()+"\nSexo do morador: "+moradores[i].getSexo()+"\nBloco do morador: "+moradores[i].getBloco()+"\nNúmero do apartamento do morador: "+moradores[i].getApartamento()+
+                        System.out.println("\n\nDados do morador: "+j+
+                                "\nNome: "+moradores[i].getNome()+
+                                "\nCPF: "+moradores[i].getCpf()+
+                                "\nTelefone: "+moradores[i].getCelular()+
+                                "\nData de nascimento: "+moradores[i].getDataDenascimento()+
+                                "\nSexo do morador: "+moradores[i].getSexo()+
+                                "\nBloco do morador: "+moradores[i].getBloco()+
+                                "\nNúmero do apartamento do morador: "+moradores[i].getApartamento()+
                                 "\nCódigo de acesso do morador: "+moradores[i].getCodigoAcesso()+ "\n\n");
                     }
                     System.exit(0);
@@ -62,9 +67,14 @@ public class CadastroMoradoresVetor {
         }
 
         for(int i = 0; i <  quantidadeMoradores; i++){
-            System.out.println("\n\nDados do morador: " +i+
-                    "\nNome: " +  moradores[i].getNome()+"\nCPF: "+moradores[i].getCpf()+"\nTelefone: "+moradores[i].getCelular()+"\nData de nascimento: "+
-                    moradores[i].getDataDenascimento()+"\nSexo do morador: "+moradores[i].getSexo()+"\nBloco do morador: "+moradores[i].getBloco()+"\nNúmero do apartamento do morador: "+moradores[i].getApartamento()+
+            System.out.println("\n\nDados do morador: "+i+
+                    "\nNome: "+moradores[i].getNome()+
+                    "\nCPF: "+moradores[i].getCpf()+
+                    "\nTelefone: "+moradores[i].getCelular()+
+                    "\nData de nascimento: "+moradores[i].getDataDenascimento()+
+                    "\nSexo do morador: "+moradores[i].getSexo()+
+                    "\nBloco do morador: "+moradores[i].getBloco()+
+                    "\nNúmero do apartamento do morador: "+moradores[i].getApartamento()+
                     "\nCódigo de acesso do morador: "+moradores[i].getCodigoAcesso()+ "\n\n");
         }
 

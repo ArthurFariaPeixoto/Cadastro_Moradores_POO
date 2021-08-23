@@ -41,8 +41,15 @@ public class CadastroMoradores {
             System.out.println("Digite o codigo de acesso do morador: ");
             dadosMoradores.setCodigoAcesso(scan.next());
 
-            System.out.println("\n\nDados do morador: \n\nNome: "+dadosMoradores.getNome()+"\nCPF: "+dadosMoradores.getCpf()+"\nTelefone: "+dadosMoradores.getCelular()+"\nData de nascimento: "+dadosMoradores.getDataDenascimento()+
-                    "\nSexo: "+dadosMoradores.getSexo()+"\nBloco: "+dadosMoradores.getBloco()+"\nApartamento: "+dadosMoradores.getApartamento()+"\nCodigo de acesso: "+dadosMoradores.getCodigoAcesso()+"\n");
+            System.out.println("\n\nDados do morador: \n\n" +
+                    "Nome: "+dadosMoradores.getNome()+
+                    "\nCPF: "+dadosMoradores.getCpf()+
+                    "\nTelefone: "+dadosMoradores.getCelular()+
+                    "\nData de nascimento: "+dadosMoradores.getDataDenascimento()+
+                    "\nSexo: "+dadosMoradores.getSexo()+"\n" +
+                    "Bloco: "+dadosMoradores.getBloco()+
+                    "\nApartamento: "+dadosMoradores.getApartamento()+
+                    "\nCodigo de acesso: "+dadosMoradores.getCodigoAcesso()+"\n");
 
             if(i+1<quantidadeMoradores) {
                 System.out.println("Deseja cadastrar outro morador? S/N");
